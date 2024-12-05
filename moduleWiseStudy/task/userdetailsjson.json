@@ -1,0 +1,12 @@
+{
+  "name": "vikas",
+  "login": false,
+  "user_logout": true,
+  "user_purchase": "protien",
+  "profile_update": true,
+  "user_login_count": 1,
+  "user_logout_count": 1,
+  "user_purchase_count": 1,
+  "user_profile_update_count": 1,
+  "total_event_emit_count": 4
+}

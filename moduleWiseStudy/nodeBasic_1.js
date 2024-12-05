@@ -71,13 +71,14 @@ console.log('globel object ', globalThis.console.log('learnig node same'));
 // console.log('adding', multi(4, 7));
 // console.log('adding', divi(4, 7));
 
-// thried es module way
+// thrid es module way
+import { add, sub, multi, divi } from './nodeBasic_2.js';
+import { Person } from '../personlist.js';
+// import nodeBasic_2 from './nodeBasic_2';
+// const { add, sub, multi, divi } = nodeBasic_2;
 
-import nodeBasic_2 from './nodeBasic_2';
-import { add, sub, multi, divi } from './nodeBasic_2';
-
-const { add, sub, multi, divi } = nodeBasic_2;
-
+const vicky = new Person('vicky', 31, 5.9, 'panipat', 'house');
+console.log('adding', vicky);
 console.log('adding', add(4, 7));
 console.log('adding', sub(4, 7));
 console.log('adding', multi(4, 7));

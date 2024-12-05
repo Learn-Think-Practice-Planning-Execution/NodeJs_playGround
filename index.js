@@ -1,9 +1,15 @@
-// const http = require('http'); // default method
+// const http = require('http'); // commonjs method
 import http from 'http'; // to create a server and many more
 import fs from 'fs'; // this is to read any file coming from client or database or local and operation on then
 import path from 'path'; //
 import { Person } from './personlist.js';
 import express from 'express';
+import { add, sub, multi, divi } from './moduleWiseStudy/nodeBasic_2.js';
+
+console.log('adding', add(4, 7));
+console.log('adding', sub(4, 7));
+console.log('adding', multi(4, 7));
+console.log('adding', divi(4, 7));
 
 // create a server at top level
 const app = express();
