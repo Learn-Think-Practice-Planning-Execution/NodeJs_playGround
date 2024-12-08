@@ -1,12 +1,1 @@
-{
-  "name": "vikas",
-  "login": false,
-  "user_logout": true,
-  "user_purchase": "protien",
-  "profile_update": true,
-  "user_login_count": 1,
-  "user_logout_count": 1,
-  "user_purchase_count": 1,
-  "user_profile_update_count": 1,
-  "total_event_emit_count": 4
-}
+[{"username":"vikas","user_password":"something_new3122","user_id":"22451529-f9b5-482d-b8be-6e5c23ed83fb","login":true,"eventCounter":{"user_login_count":3}},{"username":"viki","user_password":"something","user_id":"9da702cd-3128-4099-9856-c5623b1891c3","login":true,"eventCounter":{"user_login_count":2}}]
