@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.js",
+      "restart": true,
+      "runtimeExecutable": "node",
+      "console": "integratedTerminal"
+    }
+  ]
+}

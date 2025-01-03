@@ -5,7 +5,7 @@ import path from 'path';
 
 const currentdir = path.dirname(fileURLToPath(import.meta.url));
 
-export default const requestHandlerFunction = (req, res) => {
+export default function requestHandlerFunction(req, res) {
   console.log('req', req.url, req.method, req.headers);
 
   const url = req.url;
@@ -108,4 +108,4 @@ export default const requestHandlerFunction = (req, res) => {
   // res.write('</html>');  // after end res ,, do't write or change it will throw an error
   // do't
   //   process.exit(); // it will end the process with a status  code // stop the node server
-};
+}
