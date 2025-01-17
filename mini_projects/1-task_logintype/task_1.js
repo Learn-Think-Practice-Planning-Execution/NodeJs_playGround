@@ -1,3 +1,13 @@
+// task is about to call a function on event emit and update a user details in a file
+// 1. create a file userdetailsjson.json
+// 2. create a function to get data from file and update a user details
+// 3. create a function to write data to the file and save it
+// 4. create a function to save all data to a file async and append all data to that  file
+// 5. create a function to handle user login and update a user details
+// 6. create a event emitter and emit a event on user login, logout, purchase, profile_update
+// 7. create a function to handle all events and update a user details
+// 8. create a function to get all user details from file
+
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';

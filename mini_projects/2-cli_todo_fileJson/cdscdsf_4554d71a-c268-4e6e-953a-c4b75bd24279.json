@@ -1,0 +1,19 @@
+{
+  "name": "cdscdsf",
+  "version": "crecr",
+  "description": "crdfe cvdfer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js",
+    "server-start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vcfdv": "*",
+    "fv dfes": "*",
+    "vf d vdfs": "*"
+  }
+}
